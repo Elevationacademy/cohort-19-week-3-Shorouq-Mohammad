@@ -1,0 +1,61 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    "s m m m"
+    "s m m m"
+    "s m m m"
+    "s m m m"
+    "s e e e"
+    "s e e e";
+}
+.side{
+    display: grid;
+    grid-area: s;
+    background-color: purple;
+    padding: 10px;
+    align-content: center;
+    align-content: space-around;
+    
+}
+#fri{
+    align-content: flex-start;
+}
+#main{
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    display: grid;
+    grid-area: m;
+    background-color: lightgray;
+    padding: 10px;
+}
+span{
+    font-size: 16px;
+}
+#send{
+    display: grid;
+    grid-area: e;
+    grid-template-columns: 4fr 1fr;
+    height: 50px;
+}
+p{
+    border-radius: 5px;
+    padding: 10px;
+}
+.other{
+    background-color: gray;
+    justify-self: start;
+}
+.you{
+    background-color:rgb(64, 165, 103);
+    justify-self: end;
+}
+input[type=button]{
+    background-color: rgb(158, 14, 158);
+    color: white;
+}
+.friends{
+    background-color: rgb(158, 14, 158);
+    align-content: space-around;
+    justify-items: start;
+}
+
